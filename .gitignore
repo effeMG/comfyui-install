@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ComfyUI
+ComfyUI/models/*
+!ComfyUI/models/.gitkeep
+
+# llama.cpp
+llama.cpp/build/
+llama.cpp/models/*
+*.bin
+*.gguf
+
+# Models
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Systemd
+*.service.bak
+
+# Temp
+*.tmp
+*.temp
+~*
